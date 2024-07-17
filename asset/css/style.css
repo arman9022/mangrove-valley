@@ -1,0 +1,93 @@
+*{
+  color: #000;
+}
+body{
+  background: #fff;
+  font-family: "Inter", sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #65AEF2;
+}
+.fs-12{ font-size: 12px; }
+.fs-24{ font-size: 24px; }
+.fs-32{ font-size: 32px; }
+.fs-64{ font-size: 64px; }
+.text-one{ color: #65AEF2; }
+.text-two{ color: #FF7E1D; }
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img{
+
+}
+.carousel-caption h5{
+  font-size: 64px;
+  text-align: start;
+  text-shadow: 0px 0px 10px black;
+}
+.myNav{
+  border-radius: 1rem;
+  background: #fff;
+}
+.nav-link{
+  font-size: 24px;
+}
+.nav-link img{
+  width: 55px;
+  height: auto;
+}
+.nav-item{
+  padding: 0px 40px;
+}
+
+.bookCard{
+  background: #E9F3F6;
+  border-radius: 2.5rem;
+}
+.btnBook{
+  color: #fff;
+  background: #65AEF2;
+  font-size: 24px;
+  padding: 10px 30px;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 700;
+}
+#Gallery{
+  background: #F3F3F3;
+}
+
+.roomCard{
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 2rem;
+}
+
+.contactCard{
+  background: #F3F3F3;
+  border-radius: 1rem;
+}
+.form-control, .form-select{
+  border: none;
+  border-radius: 0px;
+  padding: 15px;
+}
+.contactBtn{
+  font-weight: 500;
+  color: #fff;
+  background: #65AEF2;
+  padding: 12px 24px;
+  border: none;
+}
+
+footer{
+  background: #1E1E1E;
+}
+.SubscribeInput{
+  border-radius: 10px 0px 0px 10px;
+}
+.input-group-text{
+  background: #65AEF2;
+  color: white;
+  padding: 10px 40px;
+}
