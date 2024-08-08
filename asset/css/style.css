@@ -17,6 +17,8 @@ a{
 .text-two{ color: #FF7E1D; }
 .carousel-item {
   height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 52, 101, 0.72) 0%, rgba(0, 0, 0, 0) 100%), url('/asset/img/hero.jfif') no-repeat center center;
+  background-size: cover;
 }
 .carousel-item img{
 
@@ -34,13 +36,18 @@ a{
   font-size: 24px;
 }
 .nav-link img{
-  width: 55px;
+  width: 77px;
   height: auto;
 }
 .nav-item{
   padding: 0px 40px;
 }
-
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #65AEF2;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #65AEF2;
+}
 .bookCard{
   background: #E9F3F6;
   border-radius: 2.5rem;
@@ -71,6 +78,13 @@ a{
   border: none;
   border-radius: 0px;
   padding: 15px;
+}
+.form-control:focus, .form-select:focus{
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
 }
 .contactBtn{
   font-weight: 500;
