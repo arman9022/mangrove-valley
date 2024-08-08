@@ -1,12 +1,12 @@
 @media screen and (max-width: 480px) {
 
   .carousel-item {
-    height: 45vh;
+    height: 55vh;
   }
-  .navbar-brand img{
+  /* .navbar-brand img{
     width: 55px;
     height: auto;
-  }
+  } */
 
 
 
