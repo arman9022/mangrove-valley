@@ -118,17 +118,31 @@
             <div class="bookCard p-5">
               <h3 class="text-center">Book a Cottage</h3>
               <p class="text-center">Discover the perfect space for you!</p>
-              <div class="row pt-4 align-items-center">
-                <div class="col-md-4">
-                  <label for="Date">Date</label>
-                  <input type="date" name="" id="Date" class="form-control my-2">
+              <div class="row pt-4 align-items-end">
+                <div class="col-md-3">
+                  <label for="Date">Start Date</label>
+                  <input type="date" name="" id="Date" class="form-control my-md-0 my-2">
                 </div>
-                <div class="col-md-4">
-                  <label for="Person">Person</label>
-                  <input type="text" name="" id="Person" class="form-control my-2">
+                <div class="col-md-3">
+                  <label for="Date">Start Date</label>
+                  <input type="date" name="" id="Date" class="form-control my-md-0 my-2">
+                </div>
+                <div class="col-md-3">
+                  <label for="Person" class="d-flex justify-content-between">
+                    Person 
+                    <!-- <a href=""> -->
+                      <i class="bi bi-info-circle" title="
+                      ১০ বছরের বেশি বাচ্চাদের পারসন হিসেবে গণ্য করা হবে।
+                      "></i>
+                    <!-- </a> -->
+                  </label>
+                  <input type="text" name="" id="Person" class="form-control my-md-0 my-2">
                 </div>
                 <div class="col-md-3 text-md-end text-center pt-md-0 pt-4">
-                  <button class="btnBook">BOOK NOW</button>
+                  <div class="row ps-md-3 px-md-0 px-2">
+                    <!-- <button class="btnBook py-2" style="border-radius: 0;">BOOK NOW</button> -->
+                    <a href="./roomSearch.html" class="btnBook py-2 text-center" style="border-radius: 0;">BOOK NOW</a>
+                  </div>
                 </div>
               </div>
             </div>
