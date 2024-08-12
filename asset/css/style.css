@@ -15,11 +15,7 @@ a{
 .fs-64{ font-size: 64px; }
 .text-one{ color: #65AEF2; }
 .text-two{ color: #FF7E1D; }
-.carousel-item {
-  height: 100vh;
-  background: linear-gradient(0deg, rgba(0, 52, 101, 0.72) 0%, rgba(0, 0, 0, 0) 100%), url('/asset/img/hero.jfif') no-repeat center center;
-  background-size: cover;
-}
+
 .carousel-item img{
 
 }
